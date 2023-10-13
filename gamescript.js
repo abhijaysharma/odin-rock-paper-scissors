@@ -64,6 +64,9 @@ function game() {
     if (userPoints > compPoints) {
         console.log("You win!")
     }
+    else if (userPoints == compPoints) {
+        console.log("No winner, it's a tie!")
+    }
     else {
         console.log("You lose!")
     }
